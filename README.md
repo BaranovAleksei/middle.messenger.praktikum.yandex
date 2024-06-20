@@ -13,3 +13,5 @@ https://www.figma.com/design/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0
 - `npm run start` — сборка стабильной версии.
 
 Проект выложен на Netlify:
+
+https://glistening-crisp-61a2b0.netlify.app
