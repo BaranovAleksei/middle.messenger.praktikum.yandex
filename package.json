@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "start": "vite build && node server.cjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "buildDeploy": "vite build"
   },
   "devDependencies": {
     "vite": "^5.2.0"
