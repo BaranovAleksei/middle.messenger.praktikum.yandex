@@ -3,8 +3,11 @@
 https://www.figma.com/design/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0-1&t=PdBIToO7lMHMGmA6-0
 
 проект написан на чистом JS с применением: 
- - "handlebars": "^4.7.8";
- - "sass": "^1.77.6";
+ - "express": "^4.19.2",
+ - "handlebars": "^4.7.8",
+ - "path": "^0.12.7",
+ - "require": "^2.4.20",
+ - "sass": "^1.77.6"
 
 Команды проекта:
 
