@@ -2,7 +2,7 @@
     <div class="titleRegistrationPage">
         {{> Title title = 'Регистрация' ClassName = "registration" }}
     </div>
-    <form class="formRegisrationPage"> 
+    <form class="formRegisrationPage" > 
         <div class="listInput">
             {{> LabelInput title = 'Почта' name = 'email'}}
             {{> LabelInput title = 'Логин' name = 'login' }}
@@ -13,7 +13,7 @@
             {{> LabelInput title = 'Пароль (ещё раз)' name = 'passwordRepeat' type = 'password' }}
         </div>
         <div class = 'btnRegistrationPage'>
-            {{> Button text = 'Зарегистрироваться' page = 'profile'}}
+            {{> Button text = 'Зарегистрироваться' type = 'submit' page = 'profile'}}
         </div>
     </form>
     <div class = 'linkRegistrationPage'>

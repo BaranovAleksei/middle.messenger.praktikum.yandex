@@ -9,6 +9,7 @@ const pages = {
     'chats': [ Pages.ChatsPage ],
     'page404': [ Pages.NotFoundPage],
     'page502': [ Pages.BadGatewayPage],
+    'editProfile': [ Pages.EditProfile ],
 }
 
 Object.entries(Components).forEach( ([ name, components]) => {
