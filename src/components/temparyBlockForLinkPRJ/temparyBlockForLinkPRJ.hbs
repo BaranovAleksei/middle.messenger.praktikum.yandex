@@ -1,8 +1,13 @@
 <div class = 'tempBlockLinks'>
-    {{> Link text = 'Авторизация' page = 'login' }}
-    {{> Link text = 'Регистрация' page = 'registration' }}
-    {{> Link text = 'Профиль' page = 'profile' }}
-    {{> Link text = 'Чаты' page = 'chats' }}
-    {{> Link text = 'Страница 404' page = 'page404' }}
-    {{> Link text = 'Страница 500' page = 'page502' }}
+    <nav>
+        <ul>
+            <li>{{> Link text = 'Авторизация' page = 'login' }}</li>
+            <li>{{> Link text = 'Регистрация' page = 'registration' }}</li>
+            <li>{{> Link text = 'Профиль' page = 'profile' }}</li>
+            <li>{{> Link text = 'Редактировать профиль' page = 'editProfile'}}</li>
+            <li>{{> Link text = 'Чаты' page = 'chats' }}</li>
+            <li>{{> Link text = 'Страница 404' page = 'page404' }}</li>
+            <li>{{> Link text = 'Страница 500' page = 'page502' }}</li>
+        </ul>
+    </nav>    
 </div>
