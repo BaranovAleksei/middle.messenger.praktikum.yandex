@@ -1,0 +1,24 @@
+<main class = "editProfile">
+    <div class="avaProfilePage">
+        <div class = "fotoProfilePage">
+            {{#if avatar}}
+            <div>
+                <img class = "avatar" src = {{avatar}} alt="change avatar">
+            </div>
+            {{else}}
+                <div class = "noAvatar">нет фото</div>
+            {{/if}}
+        </div>
+    </div>
+    <form>
+        {{> LabelInput title = 'Почта' name = 'email'}}
+        {{> LabelInput title = 'Логин' name = 'login' }}
+        {{> LabelInput title = 'Имя' name = 'first_name' }}
+        {{> LabelInput title = 'Фамилия' name = 'second_name' }}
+        {{> LabelInput title = 'Имя в чате' name = 'display_name'}}
+        {{> LabelInput title = 'Телефон' name = 'phone' }}
+        <div class="saveEditProfile">
+            {{> Button text = 'Сохранить' type = 'submit' page = 'profile'}}
+        </div>
+    </form>
+</main>

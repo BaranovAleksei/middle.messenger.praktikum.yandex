@@ -1,0 +1,23 @@
+@import '../../assets/variables.scss';
+
+.editProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 340px;
+    min-height: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: $box-shadow;
+    border: $brd-color;
+    border-radius: 12px;
+    form {
+        width: 100%;
+        .saveEditProfile {
+           margin-top: 5px;
+           display: flex;
+           justify-content: center;
+        }
+    }
+}
